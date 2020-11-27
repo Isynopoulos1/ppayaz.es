@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #0b40e6;
+}
+
+h1 {
+  font-family: "Prata", serif;
+}
+h2 {
+  font-family: "Prata", serif;
+}
+
+.jumbotron {
+  background-color: rgba(250, 235, 215, 0);
+  padding: 1rem 2rem;
+  margin-bottom: 0px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lead {
+  color: white;
+  font-size: 2.2rem;
+}
+.btn-outline-light {
+  border-color: white;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.btn-outline-light:hover {
+}
+.navbar-brand img {
+  height: 150px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background-color: #00bbc9;
+  border-color: #00bbc9;
+}
+p {
+  font-size: 20px;
+}
+.logo {
+  width: 150px;
+}
+
+.row {
+  padding: 0px;
+  margin-top: 0px;
+}
+.description {
+  padding: 0 3rem;
+}
+
+footer p {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0 3rem;
+  color: white;
+}
