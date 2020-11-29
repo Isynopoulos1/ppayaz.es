@@ -9,10 +9,6 @@ footer {
   padding-bottom: 50px;
 }
 
-.lead {
-  color: white;
-  font-size: 2.2rem;
-}
 .btn-outline-light {
   border-color: white;
 }
@@ -23,16 +19,15 @@ footer {
   font-size: 12px;
 }
 
-.btn-outline-light:hover {
-}
 .navbar-brand img {
-  height: 150px;
+  height: 200px;
 }
 
 .btn-primary,
 .btn-primary:hover {
-  background-color: #00bbc9;
-  border-color: #00bbc9;
+  border-color: white;
+  background-color: #0b40e6;
+  color: white;
 }
 p {
   font-size: 20px;
@@ -41,9 +36,43 @@ p {
   width: 150px;
 }
 
+.src {
+  width: 100%;
+}
+
 footer p {
   text-decoration: none;
   font-size: 10px;
-  padding: 0 3rem;
+  padding: 0 15rem;
   color: white;
+  text-align: left;
+}
+
+.boxe {
+  width: 18rem;
+  height: 100%;
+}
+
+.absolute-wrapper {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  width: 100%;
+  bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.absolute-wrapper a {
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.absolute-wrapper a:hover {
+  background-color: white;
+  color: black;
+}
+
+.boxe:hover .absolute-wrapper {
+  opacity: 1;
 }
