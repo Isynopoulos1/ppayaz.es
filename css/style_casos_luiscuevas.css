@@ -4,9 +4,18 @@ body {
 }
 
 footer {
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+h1 {
+  font-family: "Prata", serif;
+  text-align: left;
+}
+
+.jumbotron {
+  background-color: rgba(250, 235, 215, 0);
+  padding: 4rem 0;
 }
 
 .btn-outline-light {
@@ -36,43 +45,9 @@ p {
   width: 150px;
 }
 
-.src {
-  width: 100%;
-}
-
 footer p {
   text-decoration: none;
   font-size: 10px;
 
   color: white;
-  text-align: left;
-}
-
-.boxe {
-  width: 18rem;
-  height: 100%;
-}
-
-.absolute-wrapper {
-  position: absolute;
-  display: flex;
-  opacity: 0;
-  justify-content: center;
-  width: 100%;
-  bottom: 1rem;
-  transition: all 0.3s ease;
-}
-
-.absolute-wrapper a {
-  font-size: 12px;
-  transition: all 0.3s ease;
-}
-
-.absolute-wrapper a:hover {
-  background-color: white;
-  color: black;
-}
-
-.boxe:hover .absolute-wrapper {
-  opacity: 1;
 }
