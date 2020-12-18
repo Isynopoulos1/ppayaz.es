@@ -3,13 +3,6 @@ body {
   background-color: #0b40e6;
 }
 
-h1 {
-  font-family: "Prata", serif;
-}
-h2 {
-  font-family: "Prata", serif;
-}
-
 .jumbotron {
   background-color: rgba(250, 235, 215, 0);
   padding: 1rem 2rem;
@@ -47,6 +40,7 @@ footer {
 }
 p {
   font-size: 20px;
+  text-align: right;
 }
 .logo {
   width: 150px;
@@ -55,9 +49,14 @@ p {
 .row {
   padding: 0px;
   margin-top: 0px;
+  color: white;
+  font-family: "Prata", serif;
 }
-.description {
-  padding: 0 3rem;
+.row2 {
+  padding: 0px;
+  justify-content: right;
+  color: white;
+  font-family: "Prata", serif;
 }
 
 footer p {
