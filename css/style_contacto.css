@@ -86,6 +86,13 @@ footer p {
   border-radius: 0.5rem;
 }
 
+.redes {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 990px) {
   .tbox {
     width: 100%;

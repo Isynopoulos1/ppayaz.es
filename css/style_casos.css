@@ -1,12 +1,24 @@
+/* STYLING GEMERAL */
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #0b40e6;
 }
+.container {
+  flex-direction: row;
+}
 
+/* STYLING OF THE FOOTER */
 footer {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+footer p {
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+  text-align: left;
 }
 
 .btn-outline-light {
@@ -38,14 +50,6 @@ p {
 
 .src {
   width: 100%;
-}
-
-footer p {
-  text-decoration: none;
-  font-size: 10px;
-
-  color: white;
-  text-align: left;
 }
 
 .boxe {
