@@ -2,20 +2,24 @@ body {
   background-color: #0b40e6;
   font-family: "Open Sans", sans-serif;
 }
-
 h1 {
+  color: whitesmoke;
   font-family: "Prata", serif;
+  font-size: 3rem;
+  text-align: center;
 }
 h2 {
   font-family: "Prata", serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.7rem;
 }
 
-.jumbotron {
-  background-color: rgba(250, 235, 215, 0);
-  padding: 1rem 2rem;
-  margin-bottom: 0px;
+main {
+  text-align: center;
+  padding-left: 240px;
+  padding-right: 240px;
 }
-
 footer {
   text-align: center;
   padding-top: 50px;
@@ -23,11 +27,11 @@ footer {
 }
 
 .lead {
-  color: white;
+  color: whitesmoke;
   font-size: 2.2rem;
 }
 .btn-outline-light {
-  border-color: white;
+  border-color: whitesmoke;
 }
 .button {
   display: flex;
@@ -64,7 +68,7 @@ footer p {
   text-decoration: none;
   font-size: 10px;
   padding: 0 3rem;
-  color: white;
+  color: whitesmoke;
 }
 
 .testimonials {
@@ -73,24 +77,40 @@ footer p {
   justify-content: space-between;
   justify-content: space-around;
   margin-bottom: 100px;
-  color: white;
+  color: whitesmoke;
   font-family: "Roboto", sans-serif;
 }
 
 .tbox {
   width: 40%;
   padding: 30px;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   box-sizing: border-box;
   margin-top: 100px;
   border-radius: 0.5rem;
+}
+.contact {
+  padding: 100px;
 }
 
 .redes {
   display: flex;
   position: relative;
-  justify-content: center;
   margin: 0 auto;
+  justify-content: space-between;
+}
+.iglogo img {
+  width: 45px;
+}
+.behancelogo img {
+  width: 45px;
+}
+.inlogo img {
+  width: 45px;
+}
+.testing {
+  margin: 0 14rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 990px) {
