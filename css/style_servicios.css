@@ -59,6 +59,26 @@ p {
   font-family: "Prata", serif;
 }
 
+.quehacemos {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  color: white;
+  font-family: "Prata", serif;
+}
+
+.tbox {
+  width: 40%;
+  padding: 30px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 0.5rem;
+}
+
 footer p {
   text-decoration: none;
   font-size: 10px;

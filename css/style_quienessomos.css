@@ -16,6 +16,12 @@ h2 {
   margin-bottom: 0px;
 }
 
+video {
+  width: calc(100% - 6rem);
+  margin: 2rem 3rem 0 3rem;
+  height: auto;
+}
+
 footer {
   text-align: center;
   padding-top: 50px;
