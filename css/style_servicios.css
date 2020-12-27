@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #0b40e6;
+  background-color: #084aeb;
 }
 
 .jumbotron {
@@ -70,6 +70,7 @@ p {
   font-family: "Prata", serif;
 }
 
+/* BOXES SERVICIOS*/
 .tbox {
   width: 40%;
   padding: 30px;
@@ -77,6 +78,10 @@ p {
   box-sizing: border-box;
   margin-top: 100px;
   border-radius: 0.5rem;
+}
+
+.services2 {
+  font-family: "Open Sans", sans-serif;
 }
 
 footer p {

@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #0b40e6;
+  background-color: #084aeb;
 }
 
 footer {
@@ -35,7 +35,7 @@ h1 {
 .btn-primary,
 .btn-primary:hover {
   border-color: white;
-  background-color: #0b40e6;
+  background-color: #084aeb;
   color: white;
 }
 p {

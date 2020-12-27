@@ -1,5 +1,5 @@
 body {
-  background-color: #0b40e6;
+  background-color: #fbf9e9;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -9,16 +9,23 @@ h1 {
 h2 {
   font-family: "Prata", serif;
 }
+p {
+  font-size: 20px;
+}
 
 .jumbotron {
   background-color: rgba(250, 235, 215, 0);
   padding: 1rem 2rem;
   margin-bottom: 0px;
+  color: #084aeb;
 }
 
-video {
-  width: calc(100% - 6rem);
-  margin: 2rem 3rem 0 3rem;
+.video-container {
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
   height: auto;
 }
 
@@ -27,13 +34,16 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+footer p {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0 3rem;
+  color: #084aeb;
+}
 
 .lead {
-  color: white;
+  color: #084aeb;
   font-size: 2.2rem;
-}
-.btn-outline-light {
-  border-color: white;
 }
 .button {
   display: flex;
@@ -42,18 +52,12 @@ footer {
   font-size: 12px;
 }
 
-.navbar-brand img {
-  height: 150px;
-}
-
 .btn-primary,
 .btn-primary:hover {
   background-color: #00bbc9;
   border-color: #00bbc9;
 }
-p {
-  font-size: 20px;
-}
+
 .logo {
   width: 150px;
 }
@@ -66,27 +70,20 @@ p {
   padding: 0 3rem;
 }
 
-footer p {
-  text-decoration: none;
-  font-size: 10px;
-  padding: 0 3rem;
-  color: white;
-}
-
 .testimonials {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: space-around;
   margin-bottom: 100px;
-  color: white;
+  color: #084aeb;
   font-family: "Roboto", sans-serif;
 }
 
 .tbox {
   width: 40%;
   padding: 30px;
-  border: 1px solid white;
+  border: 1px solid#084aeb;
   box-sizing: border-box;
   margin-top: 100px;
   border-radius: 0.5rem;
