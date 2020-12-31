@@ -16,6 +16,10 @@ section {
   position: relative;
 }
 
+i {
+  font-family: "Material Icons";
+}
+
 .container {
   margin: 0 auto;
   max-width: 1500px;
