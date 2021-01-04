@@ -2,7 +2,8 @@
   position: relative;
   overflow: hidden;
 }
-.carousel-item img {
+.carousel-item img,
+.carousel-item video {
   width: 100%;
 }
 .carousel-selector {
